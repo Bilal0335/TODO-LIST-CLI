@@ -1,5 +1,4 @@
 import inquirer from "inquirer";
-import { todo } from "node:test";
 const log = console.log;
 
 let todos: string[] | number = [];
