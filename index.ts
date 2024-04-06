@@ -1,4 +1,6 @@
 import inquirer from "inquirer";
+import chalk from "chalk";
+import chalkAnimation from 'chalk-animation';
 const log = console.log;
 
 let todos: string[] | number = [];
