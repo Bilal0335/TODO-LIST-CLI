@@ -1,9 +1,13 @@
 {
   "name": "todo-list-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project TODO LIST (CLI)",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
